@@ -9,14 +9,12 @@
  *                                                       
  */
 
-
-
-
-
-
-
-
-
+ :root {
+  --main-color : coral;
+  --second-color : red;
+  --main-bt-color : blue;
+  --seconde-bt-color : green;
+}
 
 /*!
 
