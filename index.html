@@ -26,6 +26,7 @@
 								<li class="nav-item"><a class="nav-link smooth-scroll" href="#education"> Formations </a></li>
 								<li class="nav-item"><a class="nav-link smooth-scroll" href="#skill"> Compétences </a></li>
 								<li class="nav-item"><a class="nav-link smooth-scroll" href="#projet"> Projets </a></li>
+								<li class="nav-item"><a class="nav-link smooth-scroll" href="#outils"> Outils </a></li>
 							</ul>
 						</div>
 					</div>
@@ -39,7 +40,11 @@
 			<div class="profile-page">
 				<div class="wrapper">
 					<div class="page-header page-header-small" filter-color="green">
-						<div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg');"></div>
+						<div class="page-header-image" data-parallax="true">
+								<video controls loop autoplay muted id="background_video"> 
+								<source src="img/background.mp4" type="video/mp4">
+							</video>
+						</div>
 						<div class="container">
 							<div class="content-center">
 								<div class="cc-profile-image"><a href="#"><img src="img/p.a.png" alt="Image"/></a></div>
@@ -316,32 +321,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="container">
-					<div class="h5 text-center mb-5 title"> Outils </div>
-						<div class="row" >
-							<div class="col-md-3 text-center">
-								<div> <img class="logo" src="images/codeblocks_logo.jpg"> </div>
-								<div> <img class="logo" src="images/git_logo.png"> </div>
-								<div> <img class="logo" src="images/office_logo.png"> </div>	
-							</div>
-							<div class="col-md-3 text-center">
-								<div> <img class="logo" src="images/ubuntu_logo.png"> </div>
-								<div> <img class="logo" src="images/github_logo.png"> </div>
-								<div> <img class="logo" src="images/Inkscape_logo.png"> </div>
-							</div>
-							<div class="col-md-3 text-center">
-								<div> <img class="logo" src="images/db_logo.png"> </div>
-								<div> <img class="logo" src="images/gitlab_logo.png"> </div>
-								<div> <img class="logo" src="images/illustrator_logo.png"> </div>
-							</div>
-							<div class="col-md-3 text-center">
-								<div> <img class="logo" src="images/vscode_logo.png"> </div>	
-								<div> <img class="logo" src="images/docker_logo.png"> </div>
-								<div> <img class="logo" src="images/vegaspro_logo.png"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 			<div class="section" id="projet">
 				<div class="container">
@@ -357,7 +336,7 @@
 								<div class="row">
 									<div class="col-md-6">
 										<div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-											<figure class="cc-effect"><img id="image_indisponible" src="images/image_indisponible.png" alt="Image"/>
+											<figure class="cc-effect"><img id="image_indisponible" src="img/image_indisponible.png" alt="Image"/>
 												<figcaption>
 													<div class="h4"> PHP War </div>
 													<p> Projet web de 2ème année : réalisation d'un "World of Tank" textuel en php </p>
@@ -365,7 +344,7 @@
 											</figure></a>
 										</div>
 										<div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-											<figure class="cc-effect"><img  src="images/Kplay.png" alt="Image"/>
+											<figure class="cc-effect"><img  src="img/Kplay.png" alt="Image"/>
 												<figcaption>
 													<div class="h4"> Kplay </div>
 													<p> Projet de fin d'année : création par groupe d'un lecteur de musique mp3 en langage C</p>
@@ -375,7 +354,7 @@
 									</div>
 									<div class="col-md-6">
 										<div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-											<figure class="cc-effect"><img src="images/Enigma.PNG" alt="Image"/>
+											<figure class="cc-effect"><img src="img/Enigma.PNG" alt="Image"/>
 												<figcaption>
 													<div class="h4"> Enigma </div>
 													<p> Projet personnel visant à créer mon propre algorithme de chiffrement dérivé du code Caésar en langage C</p>
@@ -383,7 +362,7 @@
 											</figure></a>
 										</div>
 										<div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="projets/Date_farmers/Accueil.html" target="_blank">
-											<figure class="cc-effect"><img src="images/Data_farmers.PNG" alt="Image"/>
+											<figure class="cc-effect"><img src="img/Data_farmers.PNG" alt="Image"/>
 												<figcaption>
 													<div class="h4"> Data Farmers </div>
 													<p> Projet web de 1ère année : création de pages web autour d'une thématique par groupe de 2 </p>
@@ -392,6 +371,35 @@
 										</div>
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section" id="outils">
+				<div class="container">
+					<div class="h4 text-center mb-4 title"> Outils </div>
+						<div class="row" >
+							<div class="col-md-3 text-center">
+								<div> <img class="logo" src="img/codeblocks_logo.jpg"> </div>
+								<div> <img class="logo" src="img/git_logo.png"> </div>
+								<div> <img class="logo" src="img/office_logo.png"> </div>	
+							</div>
+							<div class="col-md-3 text-center">
+								<div> <img class="logo" src="img/ubuntu_logo.png"> </div>
+								<div> <img class="logo" src="img/github_logo.png"> </div>
+								<div> <img class="logo" src="img/Inkscape_logo.png"> </div>
+							</div>
+							<div class="col-md-3 text-center">
+								<div> <img class="logo" src="img/db_logo.png"> </div>
+								<div> <img class="logo" src="img/gitlab_logo.png"> </div>
+								<div> <img class="logo" src="img/illustrator_logo.png"> </div>
+							</div>
+							<div class="col-md-3 text-center">
+								<div> <img class="logo" src="img/vscode_logo.png"> </div>	
+								<div> <img class="logo" src="img/docker_logo.png"> </div>
+								<div> <img class="logo" src="img/vegaspro_logo.png"> </div>
 							</div>
 						</div>
 					</div>
