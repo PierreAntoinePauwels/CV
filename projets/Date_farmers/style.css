@@ -1,0 +1,342 @@
+body {
+    margin : auto ;
+    background-color: #fffff5;
+}
+header {
+    background-color: #800f0f; 
+    position: fixed ; 
+    z-index: 40 ;
+    width: 100% ;
+    min-height: 107px;
+}
+header div {
+    display: inline-block ;
+    padding : 5px;
+    padding-top: 0px;
+}
+header div h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight : 900 ;
+    color : #fffff5 ;
+    font-size: 70px ;
+    margin: 0px ;
+    margin-top : -5px ;
+    margin-left: 100px;
+}
+header div p#auteur {
+    font-family: 'Pacifico', cursive;
+    color : #fffff5 ;
+    font-size:  24px ;
+    margin-top :-22px ; 
+    margin-bottom: 1px;
+    margin-left: 104px;
+    width: 100% ;
+}
+header img {
+    height: 107px ;
+    position: absolute;
+    bottom: 0px ;
+    left: 0px;
+    transform: scaleX(-1);
+    z-index: 200;
+}
+div article {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    overflow: auto;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 10px ;
+    padding : 15px ; 
+    text-align: justify ;
+    color: #100000;
+    background-color: #fffff5 ;
+    z-index: 10 ;
+}
+div article.conclu{
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 120%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+div article.conclu p::first-letter{
+    padding-left: 40px;
+}
+div article div.partie{
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom: 70px;
+    column-count: 2;
+    column-gap: 40px;
+}
+div article div.partie p.first{
+    margin-top: 0px;
+}
+div article div.partie h2{
+    column-span: all;
+    margin: 20px;
+}
+div article div.partie h3{
+    column-span: all;
+}
+div article div.partie img{
+    padding-top: 15px;
+}
+div article div h2,.form h2,.bouton {
+    font-family: 'Montserrat', sans-serif;
+    font-weight : 900 ;
+    font-style: italic;
+    text-align: center ;
+}
+div article div img {
+    display: block;
+    float : none ;
+    margin: auto ;
+    width: 80% ;
+}
+div article.accueil {
+    float: left;
+    width: 40%;
+    padding-top: 10px;
+}
+div#colonnedroite{
+    position: fixed;
+    top: 0px;
+    right: .5%;
+    padding-top: 32.0625%; /*ratio 16/9 */
+    min-width: 57%;
+    width: auto;
+    margin-top: 10%;
+    background-color: black;
+}
+div#colonnedroite iframe{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    z-index: 10;
+}
+ul {
+    padding: 5px ;
+    list-style-type : none;
+}
+
+
+article a{
+    color: #800f0f;
+}
+article::-webkit-scrollbar-track
+{
+    margin-top: 16px;
+    margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+article::-webkit-scrollbar
+{
+    
+	width: 12px;
+	background: transparent;
+}
+
+article::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #800f0f;
+}
+
+nav.menu {
+    position: fixed;
+    top : 0px ;
+    left : 53% ;
+}
+
+nav.menu li {
+    position: fixed;
+    display: inline-block ;
+    padding: 20px;
+    
+}
+nav.menu li.p2{ left: 61%;}
+nav.menu li.conclu{ left: 69%;}
+
+nav.menu li a {
+    color : #fffff5;
+    font-family: 'Montserrat', sans-serif;
+	font-size : 120% ;
+	font-weight : 500 ; 
+    text-decoration: none;
+    
+    transition: font-weight .5s ease;
+}
+nav.menu li a:hover {
+   font-weight: 700 ;
+}
+nav.reseaux{
+    position: fixed;
+    top: 10px;
+    right: 1%;
+}
+nav.reseaux li{
+    display: inline-block ;
+}
+a.fa{
+    margin: 0px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    background: #fffff5;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    color: #800f0f;
+    text-decoration: none;
+    
+    transition: all .5s ease;
+}
+a.fa:hover{
+    color: #fffff5;
+    background: #800f0f;
+}
+a.titre{
+    color : #fffff5;
+    text-decoration: none;
+}
+p.lien{
+    text-align: center;
+    padding-top: 20px;
+}
+p.contact{
+    text-align: center;
+    margin-bottom: 1%;
+}
+hr {
+	width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #800f0f;
+    border-radius: 5px;
+    background: #100000;
+}
+#colonnegauche hr{
+    width: 90%;
+}
+.form hr{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.conclu hr{
+    width: 100%;
+    margin-top: 18%;
+    margin-bottom: 2%;
+}
+.form {
+    height: 600px;
+    background: #800f0f;
+    color: #100000;
+    font-family: 'Open Sans', sans-serif;
+	font-size : 16px ; 
+}
+form {
+	text-align : left ; 
+	margin : auto ;
+	margin-top : 80px ;
+	overflow : auto ;
+	width : 400px ;
+	height : 400px ;
+	background : #fffff5 ;
+	padding : 10px ;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+	border : 10px #800f0f solid ;
+    border-radius : 20px ;
+}
+
+input,select,textarea {
+	width : 100%;
+    height: 100%;
+    background : #fffff5 ;
+    border : 1px #100000 solid ;
+    border-radius : 3px ;
+}
+select{
+    width: auto;
+}
+textarea{
+    height: 50px;
+    width: 99%;
+}
+label{
+    font-family: 'Open Sans', sans-serif;
+	font-size : 12px ;
+}
+.bouton {
+    color:#fffff5;
+	width : 90% ;
+	border-radius : 7px ;
+	border : 1px #aaaaaa solid ;
+	background: #100000;
+	text-align : center ;
+	margin : 10px ;
+	vertical-align: middle;
+    
+    transition: all .5s ease;
+}
+.bouton:hover {
+	background: #800f0f;
+}
+.checkbox {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.checkbox input {
+    width: 10px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #100000;
+    transition: all .2s ease;
+    border: 1px #100000;
+    border-radius: 3px;
+}
+.checkbox:hover input ~ .check {
+    background-color: #400909;
+}
+.checkbox input:checked ~ .check {
+    background-color: #800f0f;
+}
+.check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkbox input:checked ~ .check:after {
+    display: block;
+}
+.checkbox .check:after {
+    left: 5px;
+    top: 3px;
+    width: 3px;
+    height: 5px;
+    border: solid #fffff5;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}

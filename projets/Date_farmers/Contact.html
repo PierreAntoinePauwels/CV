@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Contactez-nous !</title>
+        <link rel="icon" type="image/png" href="img/favicon.png" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	</head>
+	<body class="form">
+		<form>
+			<div> 
+			<h2> Contactez-nous </h2>
+			<label for="civilité"> Civilite <br>
+				<select>
+					<option value="Mr"> Mr </option>
+					<option value="Mrs"> Mrs </option>
+				</select>
+            </label>
+			<br>
+                
+			<label for="Nom"> Nom <br>
+				<input type="text" id="Nom"> <br>
+            </label>
+                
+            <label for="Prenom"> Prénom <br>
+				<input type="text" id="Prenom"> <br>
+            </label>
+                
+            <label for="email"> Adresse electronique <br>
+				<input type="email" id="e-mail" placeholder="mon@adresse.fr"/> <br>
+            </label>
+                
+            <label for="Message"> Message <br>
+				<textarea type="text" id="Message" > </textarea> <br>
+            </label>
+                
+            <label class="checkbox"> Je souhaite recevoir les prochaines newsletters
+                <input type="checkbox" checked="checked">
+                <span class="check"></span>
+            </label>
+            
+			<input class="bouton" type="submit" value="Envoyer" />
+			</div>
+		</form>
+        <hr>
+        <p class="contact">Developpé par <strong>Limou & Pauwels</strong>. Copyright: 2017-2018</p>
+	</body>
