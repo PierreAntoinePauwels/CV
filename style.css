@@ -3718,7 +3718,7 @@ img {
 
 #background_video{
   width: 100%;
-  margin: auto;
+  margin-top: -150px;
 }
 
 .img-raised {
